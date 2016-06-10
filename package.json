@@ -20,9 +20,11 @@
     "babel-eslint": "^6.0.4",
     "eslint": "^2.11.1",
     "eslint-plugin-react": "^5.1.1",
-    "stylelint": "^6.5.1"
+    "stylelint": "^6.5.1",
+    "html-webpack-plugin": "^2.19.0"
   },
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Xu Gao",
